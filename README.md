@@ -1,6 +1,9 @@
 # StockRankSwiftUI
 StockRank 예제 - SwiftUI List View
 
+![image](https://user-images.githubusercontent.com/89061309/206858501-8f5315a9-6e35-4c1a-969e-94ec98fe691d.png)
+
+
 
 ## Branch
 * part7/swiftui-list
