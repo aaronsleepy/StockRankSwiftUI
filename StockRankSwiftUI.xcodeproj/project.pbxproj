@@ -99,8 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				9393F7742944BAF7001664CA /* StockRankSwiftUIApp.swift */,
-				9393F7762944BAF7001664CA /* StockRankView.swift */,
-				9393F7A12944BC54001664CA /* StockRankRow.swift */,
+				9393F7A32944C41A001664CA /* View */,
 				9393F7A02944BBFE001664CA /* Model */,
 				9393F7782944BAF9001664CA /* Assets.xcassets */,
 				9393F77A2944BAF9001664CA /* Preview Content */,
@@ -139,6 +138,15 @@
 				9393F79E2944BBF5001664CA /* StockModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		9393F7A32944C41A001664CA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9393F7762944BAF7001664CA /* StockRankView.swift */,
+				9393F7A12944BC54001664CA /* StockRankRow.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
