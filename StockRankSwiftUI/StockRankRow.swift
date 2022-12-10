@@ -9,7 +9,21 @@ import SwiftUI
 
 struct StockRankRow: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Text("1")
+            
+            Image("TSLA")
+            
+            VStack {
+                Text("TSLA")
+                HStack {
+                    Text("3,538,631 원")
+                    Text("+0.04%")
+                }
+            }
+            
+            Image(systemName: "heart.fill")
+        }
     }
 }
 
