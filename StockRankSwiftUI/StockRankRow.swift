@@ -31,7 +31,7 @@ struct StockRankRow: View {
                     Text("\(stock.price) 원")
                         .font(.system(size: 12))
                         .foregroundColor(.gray)
-                    Text("\(stock.diff)%")
+                    Text("\(stock.diff * 100, specifier: "%.2f") %")
                         .font(.system(size: 12))
                         .foregroundColor(.red)
                 }
