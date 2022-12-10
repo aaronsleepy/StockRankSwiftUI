@@ -33,7 +33,7 @@ struct StockRankRow: View {
                         .foregroundColor(.gray)
                     Text("\(stock.diff * 100, specifier: "%.2f") %")
                         .font(.system(size: 12))
-                        .foregroundColor(.red)
+                        .foregroundColor(stock.diff > 0 ? .red : .blue)
                 }
             }
             
