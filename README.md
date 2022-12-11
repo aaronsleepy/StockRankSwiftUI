@@ -3,6 +3,10 @@ StockRank 예제 - SwiftUI List View
 
 ![image](https://user-images.githubusercontent.com/89061309/206858501-8f5315a9-6e35-4c1a-969e-94ec98fe691d.png)
 
+### part7/swiftui-navigation
+![image](https://user-images.githubusercontent.com/89061309/206895053-9fee9010-8c96-499c-954f-74e10f0fa367.png)
+
+
 
 
 ## Branch
