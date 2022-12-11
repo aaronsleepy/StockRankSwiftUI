@@ -16,7 +16,7 @@ struct StockRankView: View {
                 // ZStack 꼼수: 기본 NavitionView/Link의 디자인을 무력화하기
                 ZStack {
                     NavigationLink {
-                        StockDetailView(stock: $item)
+                        StockDetailView(viewModel: viewModel, stock: $item)
                     } label: {
                         EmptyView()
                     }
