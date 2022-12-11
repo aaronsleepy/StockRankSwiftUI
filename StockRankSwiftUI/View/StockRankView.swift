@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct StockRankView: View {
-    @State var list = StockModel.list
+    @StateObject var viewModel = StockRankViewModel()
     
     var body: some View {
         NavigationView {
-            List($list) { $item in
+            List($viewModel.models) { $item in
                 // ZStack 꼼수: 기본 NavitionView/Link의 디자인을 무력화하기
                 ZStack {
                     NavigationLink {
