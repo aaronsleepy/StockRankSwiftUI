@@ -57,5 +57,6 @@ struct StockRankRow: View {
 struct StockRankRow_Previews: PreviewProvider {
     static var previews: some View {
         StockRankRow(stock: .constant(StockModel.list[0]))
+            .previewLayout(.fixed(width: 390, height: 80))
     }
 }
