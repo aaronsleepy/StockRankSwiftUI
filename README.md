@@ -7,9 +7,7 @@ StockRank 예제 - SwiftUI List View
 ![image](https://user-images.githubusercontent.com/89061309/206895053-9fee9010-8c96-499c-954f-74e10f0fa367.png)
 
 ### part7/swiftui-observable
-![image](https://user-images.githubusercontent.com/89061309/206900030-07872145-0a94-44bc-8328-2a43023e54e6.png)
-
-
+![image](https://user-images.githubusercontent.com/89061309/206900063-01d564eb-b137-4238-8968-96d98da57f6c.png)
 
 
 ## Branch
