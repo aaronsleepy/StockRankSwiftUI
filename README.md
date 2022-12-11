@@ -12,6 +12,7 @@ StockRank 예제 - SwiftUI List View
 ## Branch
 * part7/swiftui-list
 * part7/swiftui-navigation
+* part7/swiftui-observable
 
 
 ## 학습자료
