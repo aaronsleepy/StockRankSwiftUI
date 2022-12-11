@@ -11,14 +11,25 @@ struct StockRankView: View {
     @State var list = StockModel.list
     
     var body: some View {
-        List($list) { $item in
-            StockRankRow(stock: $item)
-                .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
-                .listRowSeparator(.hidden)
-                .frame(height: 80)
+        NavigationView {
+            List($list) { $item in
+                NavigationLink {
+                    StockDetailView(stock: $item)
+                } label: {
+                    StockRankRow(stock: $item)
+
+                }
+
+                
+                
+//                StockRankRow(stock: $item)
+//                    .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
+//                    .listRowSeparator(.hidden)
+//                    .frame(height: 80)
+            }
+            .listStyle(.plain)
+            .navigationTitle("Stock Rank")
         }
-        .listStyle(.plain)
-        .background(.black)
     }
 }
 
